@@ -10,7 +10,7 @@ const Maintenance = require("./models/Maintenance");
 const SparePart = require("./models/SparePart");
 const Alert = require("./models/alert");
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://minetrack-wl9n.onrender.com/";
 const JWT_SECRET = process.env.JWT_SECRET || "mining_super_secret_jwt_key_2026";
 
 async function request(path, options = {}) {

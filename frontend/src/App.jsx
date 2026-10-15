@@ -18,7 +18,7 @@ import {
 /* ------------------------------------------------------------------ */
 /*  CONFIG                                                             */
 /* ------------------------------------------------------------------ */
-const API = "http://localhost:5000/api";
+const API = "https://minetrack-wl9n.onrender.com/";
 
 const EQUIPMENT_STATUS = [
   { value: "active", label: "Active" },
