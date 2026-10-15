@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 
-const API_URL = "https://minetrack-wl9n.onrender.com/";
+const API_URL = "https://minetrack-wl9n.onrender.com/api/spare-parts";
 
 function SpareParts() {
     const [spareParts, setSpareParts] = useState([]);

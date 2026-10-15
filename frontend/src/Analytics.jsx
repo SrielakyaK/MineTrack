@@ -13,7 +13,7 @@ import {
   CartesianGrid
 } from "recharts";
 
-const API = "https://minetrack-wl9n.onrender.com/";
+const API = "https://minetrack-wl9n.onrender.com/api";
 
 function Analytics() {
   const [equipment, setEquipment] = useState([]);
